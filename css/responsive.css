@@ -1,0 +1,181 @@
+/****** 400px ******/
+@media (min-width: 400px){
+	.intro p span{
+		margin-top: -5px;
+	}
+}
+@media (max-width: 399px){
+	.intro p span{
+		margin-top: 5px;
+	}
+}
+/****** 600px ******/
+@media (min-width: 600px){
+	/***** MAIN MENU *****/
+	#main-menu{
+		text-align: center;
+	}
+	#main-menu a,#main-menu i{
+		display: inline-block;
+	}
+	#main-menu a{
+		margin: 4px 20px;
+	}
+	.hamburger{
+		display: none;
+	}
+	/***** MEMBERS *****/
+	.member{
+		width: 350px;
+	}
+	/***** WORK *****/
+	.gallery figure{
+		width: 33.333333%;
+	}
+}
+@media (max-width: 599px){
+	/***** MAIN MENU *****/
+	#main-menu{
+		text-align: right;
+	}
+	#main-menu a,#main-menu i{
+		display: none;
+	}
+	#main-menu a.show{
+		display: block;
+		margin: 25px 0;
+		text-align: center;
+	}
+	.hamburger{
+		display: inline-block;
+	}
+	/***** MEMBERS *****/
+	.member{
+		width: 100%;
+	}
+	/***** WORK *****/
+	.gallery figure{
+		width: 50%;
+	}
+}
+/****** 900px ******/
+@media (min-width: 900px){
+	/***** HOME *****/
+	#home{
+		flex-flow: row wrap;
+		height: 100%;
+		min-height: 440px;
+	}
+	/***** MEMBERS *****/
+	.member{
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	/***** SLIDER *****/
+	#slider header{
+		display: block;
+	}
+	#slider nav{
+		top: 100px;
+	}
+	#slider nav .container{
+		width: 35%;
+	}
+	#slider .tip{
+		display: none;
+	}
+	#slider figure .content{
+		padding-top: 189px;
+	}
+
+	#slider figure .right{
+		width: 55%;
+		float: right;
+	}
+	#slider h1{
+		font-size: 65px;
+		line-height: 65px;
+	}
+	#slider .right p{
+		margin: 10px 14.2857% 30px 0;
+	}
+	#slider .right a{
+	    display: block;
+	}
+	/***** CLIENTS *****/
+	#clients a{
+		width: 16.666%;
+		height: 180px;
+	}
+	/***** CONTACT *****/
+	.form-wrap{
+		float: left;
+		width: 50%;
+	}
+	.input-field textarea{
+		height: 83px;
+	}
+	.input-field .tip{
+		float: left;
+	}
+	.input-field input[type="submit"]{
+		float: right;
+	}
+}
+@media (max-width: 899px){
+	/***** HOME *****/
+	#home{
+		flex-flow: column;
+	}
+	/***** SLIDER *****/
+	#slider header{
+		display: none;
+	}
+	#slider nav{
+		top: 15px;
+	}
+	#slider nav .container{
+		width: 50%;
+	}
+	#slider .tip{
+		display: block;
+	}
+	#slider figure .content{
+		padding-top: 35px;
+	}
+	#slider figure .right{
+		width: 100%;
+	}
+	#slider figure .right .wrap{
+		text-align: center;
+	}
+	#slider h1{
+		font-size: 40px;
+		line-height: 40px;
+	}
+	#slider .right p{
+		margin: 10px 0 30px;
+	}
+	#slider .right a{
+	    display: inline-block;
+	    padding: 0px 123px;
+	}
+	/***** CLIENTS *****/
+	#clients a{
+		width: 33.3333%;
+		height: 150px;
+	}
+	/***** CONTACT *****/
+	.form-wrap{
+		width: 100%;
+	}
+	.input-field{
+		text-align: center;
+	}
+	.input-field input,.input-field textarea{
+		display: inline-block;
+	}
+	.input-field textarea{
+		height: 150px;
+	}
+}

@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+a.underline{
+	text-decoration: underline;
+}
+a:focus, a:active, a:hover{
+	text-decoration: none;
+}
+a.underline:focus, a.underline:active, a.underline:hover{
+	text-decoration: underline;
+}
+ul,ol,li{
+	list-style: none;
+}
+input,button,select,textarea{
+	border: 1px solid #fff;
+	outline: none；
+	font-size: 16px;
+	color: #fff;
+	background: transparent;
+}
+input[type=submit]{
+	cursor: pointer;
+}
+textarea{
+	resize: both;
+	overflow: auto;
+}
+table,th,tr,td{
+	border-collapse: collapse;
+	text-align: left;
+}
+* img{
+	width: 100%;
+}
+.clearfix{
+	clear: both;
+	overflow: hidden;
+}
+.text-upper{
+	text-transform: uppercase;
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+::-moz-placeholder{
+    color: #fff;
+}
+:-ms-input-placeholder{
+    color: #fff;
+}
